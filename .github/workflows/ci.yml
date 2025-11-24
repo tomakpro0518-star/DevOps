@@ -28,4 +28,4 @@ jobs:
         run: chmod +x ./node_modules/.bin/mocha
 
       - name: Run tests
-        run: npm start  # Use npx to run mocha
+        run:  npx mocha -r ts-node/register test/test.ts  # Use npx to run mocha

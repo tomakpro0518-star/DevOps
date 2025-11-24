@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
-     "test": "mocha test/test.ts"
+    "start": "node index.js",
+    "test": "mocha test/test.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,10 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@types/mocha": "^10.0.10",
     "chai": "^6.2.1",
-    "mocha": "^11.7.5"
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
